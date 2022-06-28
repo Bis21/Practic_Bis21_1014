@@ -4,5 +4,4 @@ def read_txt_file():
     with open(file,'r', encoding='utf-8') as f:
         data = f.read()
         print(data)
-        print("poverka")
         return data
