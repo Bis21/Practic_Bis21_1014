@@ -1,3 +1,7 @@
-# Командный проект от группы "Трио" с учатниками: Батаев Илья, Никита Козлов, Хомяков Кирилл
-# Капитан - Батаев И.С.
-
+#User2(Kirill): чтение
+def read_txt_file():
+    file = 'file.txt'
+    with open(file,'r', encoding='utf-8') as f:
+        data = f.read()
+        print(data)
+        return data
