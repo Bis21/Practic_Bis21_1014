@@ -2,6 +2,7 @@
 # Капитан - Батаев И.С.
 
 #nikita - удаление
+# func
 def delete_file():
     file_path = 'file.txt'
     try:
