@@ -26,3 +26,12 @@ def read_txt_file():
         data = f.read()
         print(data)
         return data
+
+if __name__ == "__main__":
+	if write_in_txt_file():
+		print("[ok] write")
+	print(read_txt_file())
+	
+	if delete_file():
+		print("[OK] delete")
+	
